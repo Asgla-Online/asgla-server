@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asgla Explosion", "Asgla Explosion\Asgla Explosion.csproj", "{BB803A2C-C9D5-4989-BC39-ADC3C06A6C23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_Ubuntu|Any CPU = Debug_Ubuntu|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release_Ubuntu|Any CPU = Release_Ubuntu|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB803A2C-C9D5-4989-BC39-ADC3C06A6C23}.Debug_Ubuntu|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB803A2C-C9D5-4989-BC39-ADC3C06A6C23}.Debug_Ubuntu|Any CPU.Build.0 = Debug|Any CPU
+		{BB803A2C-C9D5-4989-BC39-ADC3C06A6C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB803A2C-C9D5-4989-BC39-ADC3C06A6C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB803A2C-C9D5-4989-BC39-ADC3C06A6C23}.Release_Ubuntu|Any CPU.ActiveCfg = Release|Any CPU
+		{BB803A2C-C9D5-4989-BC39-ADC3C06A6C23}.Release_Ubuntu|Any CPU.Build.0 = Release|Any CPU
+		{BB803A2C-C9D5-4989-BC39-ADC3C06A6C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB803A2C-C9D5-4989-BC39-ADC3C06A6C23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A43C06E7-7338-46D1-9C6A-5B27ACCCAE2B}
+	EndGlobalSection
+EndGlobal

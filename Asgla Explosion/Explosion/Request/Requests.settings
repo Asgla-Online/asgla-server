@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Asgla.Explosion.Request" GeneratedClassName="Requests">
+  <Profiles />
+  <Settings>
+    <Setting Name="Login" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Asgla.Explosion.Request.Asgla.Login</Value>
+    </Setting>
+    <Setting Name="Chat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Asgla.Explosion.Request.Asgla.Chat</Value>
+    </Setting>
+    <Setting Name="EquipItem" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Asgla.Explosion.Request.Asgla.EquipItem</Value>
+    </Setting>
+    <Setting Name="Ping" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Asgla.Explosion.Request.Asgla.Ping</Value>
+    </Setting>
+    <Setting Name="Game" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Asgla.Explosion.Request.Asgla.Game</Value>
+    </Setting>
+    <Setting Name="Join" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Asgla.Explosion.Request.Asgla.Join</Value>
+    </Setting>
+    <Setting Name="JoinFirst" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Asgla.Explosion.Request.Asgla.JoinFirst</Value>
+    </Setting>
+    <Setting Name="MoveToArea" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Asgla.Explosion.Request.Asgla.MoveToArea</Value>
+    </Setting>
+    <Setting Name="PlayerData" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Asgla.Explosion.Request.Asgla.PlayerLoadData</Value>
+    </Setting>
+    <Setting Name="PlayerInventory" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Asgla.Explosion.Request.Asgla.PlayerLoadInventory</Value>
+    </Setting>
+    <Setting Name="None" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Asgla.Explosion.Request.Asgla.Default</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
