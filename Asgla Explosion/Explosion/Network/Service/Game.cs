@@ -15,14 +15,14 @@ namespace Asgla.Explosion.Network.Service {
             Console.WriteLine("[Game] New connection {0}, {1}", ID, StartTime);
         }
 
-        protected override void OnMessage(MessageEventArgs e) {
+        protected override void OnMessage(MessageEventArgs messageEventArgs) {
             Console.WriteLine("[Game] Message received");
 
-            CmdSerialize cmd = JsonConvert.DeserializeObject<CmdSerialize>(e.Data);
+            CmdSerialize cmd = JsonConvert.DeserializeObject<CmdSerialize>(messageEventArgs.Data);
 
             Console.WriteLine("[Game] Explosion type {0}", cmd.Cmd);
 
-            Thread thread1 = new Thread(() => Manager.Singleton.Init(Player.NONE, e.Data, cmd.Cmd));
+            Thread thread1 = new Thread(() => Manager.Singleton.Init(Player.NONE, messageEventArgs.Data, cmd.Cmd));
             thread1.Start();
         }
 

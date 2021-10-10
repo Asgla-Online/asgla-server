@@ -1,10 +1,11 @@
-﻿using Asgla.Explosion.Database;
+﻿using Asgla.Explosion.DB;
 using Asgla.Explosion.Enum;
 using Asgla.Explosion.Interface;
 using Asgla.Explosion.Serializable;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
+using System.Linq;
 
 namespace Asgla.Explosion.Request.Asgla {
     class Login : IExplosion {
@@ -21,10 +22,20 @@ namespace Asgla.Explosion.Request.Asgla {
                 { "Status", true }
             };
 
-            using (MariaDB mariaDB = new MariaDB()) {
-                User user = mariaDB.DBUser.Find(1);
-                Console.WriteLine(user.Username);
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+
+            Database.open();
+
+            using (Database db = new Database()) {
+                System.Collections.Generic.List<User> users = db.Users.ToList();
+
+                Console.WriteLine(users.Count());
+
+               // users.ForEach(user => Console.WriteLine(user.Username));
             }
+
+            watch.Stop();
+            Console.WriteLine(watch.ElapsedMilliseconds);
 
             Console.WriteLine(JLogin);
 

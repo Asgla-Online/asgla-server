@@ -12,7 +12,7 @@ namespace Asgla.Explosion.Request {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.6.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.10.0.0")]
     internal sealed partial class Requests : global::System.Configuration.ApplicationSettingsBase {
         
         private static Requests defaultInstance = ((Requests)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Requests())));
